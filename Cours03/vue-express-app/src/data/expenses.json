@@ -1,0 +1,5 @@
+[
+  { "expenseName": "Poulet", "price": 10, "qty": 2 },
+  { "expenseName": "Poisson", "price": 5 },
+  { "expenseName": "Patate", "price": 8 }
+]
