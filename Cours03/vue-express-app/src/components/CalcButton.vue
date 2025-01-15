@@ -6,8 +6,6 @@ const props = defineProps(['value', 'actionFunction'])
 <template>
   <div class="calcBtnBg" @click="() => {console.log('patate')}">
     <button class="calcBtn" @click="props.actionFunction">{{ props.value }}</button>
-    <button class="calcBtn" @click="props.actionFunction">{{ props.value }}</button>
-    <button class="calcBtn" @click="props.actionFunction">{{ props.value }}</button>
   </div>
 </template>
 
